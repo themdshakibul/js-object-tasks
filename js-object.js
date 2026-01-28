@@ -8,7 +8,7 @@ const colors = {
   "golden rod": "#daa520",
 };
 
-// console.log(colors["golden rod"]);
+console.log(colors["golden rod"]);
 
 // ### Task-2
 // For this object below add a property named `passenger capacity` with value 5
@@ -20,7 +20,7 @@ const car = {
 };
 
 car["passenger capacity"] = 5;
-// console.log(car);
+console.log(car);
 
 // ### Task-3
 // Display the physics marks as output.
@@ -36,3 +36,17 @@ const student = {
 };
 
 console.log(student.physics.marks);
+
+// ### Task-4
+// Count the `number of properties`.
+// **Input:
+
+let students = {
+  name: "Ariana Grande",
+  age: 21,
+  city: "Gaibandha",
+  isStudent: true,
+};
+
+const properties = Object.keys(students).length;
+console.log(properties);
